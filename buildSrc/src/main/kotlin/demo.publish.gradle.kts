@@ -2,16 +2,6 @@ plugins {
     `maven-publish`
 }
 
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            create<MavenPublication>("release") {
-//                from(components["java"])
-//            }
-//        }
-//    }
-//}
-
 publishing {
     publications {
         create<MavenPublication>("maven") {
